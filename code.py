@@ -22,3 +22,6 @@ while True:
         floor_x_pos =0
     pygame.display.update()
     clock.tick(120)
+    #background
+    bg= pygame.image.load('FileGamme/assaets/backgground-night.png').convert_alpha()
+    
